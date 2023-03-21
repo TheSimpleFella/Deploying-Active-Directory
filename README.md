@@ -22,9 +22,13 @@ Active Directory Domain Services Deployment
 - Windows Server for Domain Controller
 
 Quick Note: 
+
 -DC=Domain Controller
+
 -VM=Virtual Machine
+
 -ICMP=Internet Control Message Protocol
+
 -DS=Domain Service
 
 
