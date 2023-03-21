@@ -143,7 +143,7 @@ Configuring the deployment of DS.
 <p>
 <img src="https://user-images.githubusercontent.com/126700220/226645877-d517ac55-4f93-42d7-88d8-3a4adadd859f.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-New log in credentials ceeated from within the DS. 
+New log in credentials created from within the DS. 
 <p>
 </p>
 <br />
