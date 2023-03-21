@@ -188,10 +188,8 @@ Successfull log in.
 </p>
 <br /
 
-Check out the other links: (coming very soon)
+Chevk out how to set the DNS (dDomain Name System):
 
--Link: ADDS password resetting*****
-
--Link: ADDS Filesharing******
+Link: https://github.com/TheSimpleFella/DNS-Setting.git
 
 Thank you for looking at my work.
