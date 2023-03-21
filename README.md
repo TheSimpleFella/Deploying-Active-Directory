@@ -92,4 +92,106 @@ Remoted into the client VM. I did this to test the ICMP (Internet Control Messag
 </p>
 <br />
 
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226641937-f7e7b1cc-7fb7-4dd6-a5ae-723e0ce23f42.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Ran the CMD line "ping". Note that I couldn't connect to the DC yet. Although connected within the Topology, the DC's firewall prevented me from receiving my ping echo. 
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226642762-5a233f66-75fa-4669-a10e-da29a513ccd7.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+I downloaded and launched Wireshark. I filtered the traffic to see only ICMP. The diagnostics in the pink show "no response found".
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226643397-dd418c2f-ba75-4ead-9759-5f24e1b5227b.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Within the DC firewall, I enabled the ICMP to echo back to the VM. 
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226644082-850e7a38-9d06-421c-af66-3ce52583c775.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Now the client receives a reply from the DC. Now I can install the DS.
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226644457-0d3999eb-9d5b-4fd6-aebe-644f54c7ac89.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Installation of Domain Services.
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226644885-a56245f4-40ea-4f68-a041-4cf73016a67a.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Configuring the deployment of DS.
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226645877-d517ac55-4f93-42d7-88d8-3a4adadd859f.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+New log in credentials ceeated from within the DS. 
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226646163-f6aa876c-837a-4f55-ad7e-0d2330d74376.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Created employees and admins. I accessed the Organizational Units tab to create the appropriate folders. 
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226647131-c15f7177-a301-417a-b8b4-d62d154ca48b.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Created a new user. I later used this user for my file sharing exercises. Link: coming soon.
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226647451-1f4fb341-57b4-4bb0-8c80-7fbee4ae51d4.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Created an administrator account within the DS. 
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226647777-6594a54d-a92d-480a-b7f8-0bf906096347.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Logged out of the DC. Then I logged back into the DC as the new "admin" to test the access.
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://user-images.githubusercontent.com/126700220/226648223-945c75f1-925e-41bb-accf-0adff92abf23.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Successfull log in. 
+<p>
+</p>
+<br /
+
+Check out the other links: (coming very soon)
+
+-Link: ADDS password resetting*****
+
+-Link: ADDS Filesharing******
+
 Thank you for looking at my work.
