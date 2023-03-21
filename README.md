@@ -188,7 +188,7 @@ Successfull log in.
 </p>
 <br /
 
-Chevk out how to set the DNS (dDomain Name System):
+Check out how to set the DNS (dDomain Name System):
 
 Link: https://github.com/TheSimpleFella/DNS-Setting.git
 
